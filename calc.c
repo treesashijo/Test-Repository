@@ -9,11 +9,8 @@ void main()
     printf("\n.................");
     printf("\n\nEnter your choice:");
     scanf("%d",&choice);
-    if(choice>0 && choice <5)
-    {
-        printf("Enter the numbers:");
-        scanf("%f%f",&a,&b);
-    }
+    printf("Enter the numbers:");
+    scanf("%f%f",&a,&b);
     switch(choice)
     {
         case 1:
