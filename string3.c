@@ -7,17 +7,21 @@ int main()
     scanf("%s",a);
     for(i=0; a[i]!='\0';i++)
     {
-        if(i=0;j=length-1;(i>j);i++;j--)
+        length++;
+    }
+    for(i=0;j=length-1;i>j;i++,j--)
+    {
+        if(a[i]!=a[j])
         {
             break;
         }
     }
     if(i>j)
     {
-        printf("not palindrome");
+        printf("palindrome");
     }
     else
     {
-        printf("palindrome");
+        printf("not palindrome");
     }
 }
