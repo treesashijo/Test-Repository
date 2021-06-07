@@ -5,7 +5,7 @@ int main()
     printf("Enter the limit\n");  
     scanf("%d", &limit);  
     printf("Enter %d numbers\n", limit);  
-    while(limit)  
+    while(limit!=0)  
     {  
         scanf("%d", &num);  
         if(num > 0)  
@@ -22,7 +22,7 @@ int main()
         }  
         limit--;  
     }  
-    printf("\nPositive Numbers: %d\n", positive);  
+    printf("Positive Numbers: %d\n", positive);  
     printf("Negative Numbers: %d\n", negative);  
     printf("Number of zero: %d\n", zero);  
       
